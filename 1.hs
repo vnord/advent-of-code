@@ -1,4 +1,4 @@
-main = interact $ show . sum . map fuel . map read . lines
+main = interact $ show . sum . map (fuel . read) . lines
 
 fuel :: Integer -> Integer
 fuel x | f x <= 0 = 0
