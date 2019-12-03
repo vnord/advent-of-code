@@ -1,8 +1,4 @@
-import Data.List
 import Data.List.Split
-import Control.Lens
-import Control.Monad.State
-import Data.Maybe
 import qualified Data.Set as Set
 
 pair :: String -> (Char, Int)
